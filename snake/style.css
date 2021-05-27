@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./background.jpg) center no-repeat;
+  margin: 20px;
+}
+
+.field {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(172, 202, 182, 0.8);
+}
+
+.excel {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.snakeBody {
+  background: url(./scale.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.head {
+  background: url(./header1.jpg);
+  background-size: cover;
+  border-radius: 10%;
+}
+
+.mouse {
+  background: url(./hare.jpg);
+  background-size: cover;
+  border-radius: 10%;
+}
